@@ -2,14 +2,14 @@ package com.iamnotgod.foodmenu;
 
 public class Culinary {
 
-    private String nama, deskripsi;
-    private int harga, id_gambar;
+    private String nama, deskripsi, imgUrl;
+    private int harga;
 
-    public Culinary(String nama, String deskripsi, int harga, int id_gambar) {
+    public Culinary(String nama, String deskripsi, int harga, String imgUrl) {
         this.nama = nama;
         this.deskripsi = deskripsi;
         this.harga = harga;
-        this.id_gambar = id_gambar;
+        this.imgUrl = imgUrl;
     }
 
     public String getNama() {
@@ -36,11 +36,11 @@ public class Culinary {
         this.harga = harga;
     }
 
-    public int getId_gambar() {
-        return id_gambar;
+    public String getImgUrl() {
+        return imgUrl;
     }
 
-    public void setId_gambar(int id_gambar) {
-        this.id_gambar = id_gambar;
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
     }
 }

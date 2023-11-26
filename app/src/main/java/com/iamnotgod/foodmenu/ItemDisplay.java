@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 public class ItemDisplay extends AppCompatActivity {
 
     TextView nama, deskripsi, harga;
@@ -21,7 +23,7 @@ public class ItemDisplay extends AppCompatActivity {
         deskripsi = (TextView) findViewById(R.id.infoDeskripsi);
         harga = (TextView) findViewById(R.id.infoHarga);
 
-        img.setImageResource(getIntent().getIntExtra("img", 0));
+        Picasso.get().load(getIntent().getStringExtra("img")).into(img);
         nama.setText(getIntent().getStringExtra("nama"));
         deskripsi.setText(getIntent().getStringExtra("deskripsi"));
         harga.setText(getIntent().getStringExtra("harga"));

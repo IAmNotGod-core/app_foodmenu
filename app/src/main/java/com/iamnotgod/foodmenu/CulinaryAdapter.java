@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 public class CulinaryAdapter extends RecyclerView.Adapter<CulinaryAdapter.ViewHolder> {
@@ -40,13 +42,13 @@ public class CulinaryAdapter extends RecyclerView.Adapter<CulinaryAdapter.ViewHo
         Culinary culinary = listCulinary.get(position);
         holder.txtNama.setText(culinary.getNama());
         holder.txtHarga.setText(culinary.getHarga()+" Mora");
-        holder.imgFoto.setImageResource(culinary.getId_gambar());
+        Picasso.get().load(culinary.getImgUrl()).into(holder.imgFoto);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, ItemDisplay.class);
-                intent.putExtra("img", culinary.getId_gambar());
+                intent.putExtra("img", culinary.getImgUrl());
                 intent.putExtra("nama", culinary.getNama());
                 intent.putExtra("deskripsi", culinary.getDeskripsi());
                 intent.putExtra("harga", culinary.getHarga()+" Mora");
