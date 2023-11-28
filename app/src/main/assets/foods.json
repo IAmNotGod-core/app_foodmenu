@@ -1,6 +1,12 @@
 [
   { "name" : "Adeptus' Temptation", "desc" : "A complex, famous type of Liyue cuisine, in which specially selected ingredients are submerged and slowly bowled into soup stock.", "price" : 50000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Adeptus%27_Temptation.png/revision/latest?cb=20210415133724"},
-  { "name" : "Jade Parcels", "desc" : "An exquisite-looking dish.", "price" : 30000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Jade_Parcels.png/revision/latest?cb=20210415153732"},
+  { "name" : "Biryani", "desc" : "An aromatic rice dish.", "price" : 12500, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Biryani.png/revision/latest?cb=20220825090905"},
+  { "name" : "Bountiful Year", "desc" : "Luxurious and exquisite raw fish.", "price" : 15000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/9/95/Item_Bountiful_Year.png/revision/latest?cb=20220107162532"},
+  { "name" : "Butter Crab", "desc" : "A grilled crab dish.", "price" : 20000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Butter_Crab.png/revision/latest?cb=20210723024717"},
+  { "name" : "Chicken Tofu Pudding", "desc" : "A dish that requires great precision to make.", "price" : 11000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/d/db/Item_Chicken_Tofu_Pudding.png/revision/latest?cb=20210609043702"},
   { "name" : "Golden Crab", "desc" : "A crab dish cooked in the ancient ways.", "price" : 25000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Golden_Crab.png/revision/latest?cb=20210415145849"},
-  { "name" : "Butter Crab", "desc" : "A grilled crab dish. ", "price" : 20000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Butter_Crab.png/revision/latest?cb=20210723024717"}
+  { "name" : "Haggis", "desc" : "A dish with strong and distinctive flavors.", "price" : 20000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_Haggis.png/revision/latest?cb=20231002065007"},
+  { "name" : "Jade Parcels", "desc" : "An exquisite-looking dish.", "price" : 30000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Jade_Parcels.png/revision/latest?cb=20210415153732"},
+  { "name" : "Moon Pie", "desc" : "A traditional staple from Mondstadt.", "price" : 11000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/3/38/Item_Moon_Pie.png/revision/latest?cb=20210415150115"},
+  { "name" : "Sashimi Platter", "desc" : "A seafood dish made using fresh ingredients.", "price" : 15000, "img" : "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Sashimi_Platter.png/revision/latest?cb=20210723061557"}
 ]
